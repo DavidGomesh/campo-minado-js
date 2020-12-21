@@ -1,0 +1,97 @@
+table{
+    background-color: rgb(139, 139, 139);
+}
+
+td{
+    /* border: 1px solid black; */
+    width: 40px;
+    height: 40px;
+
+    display: inline-block;
+    margin: 1px;
+
+    padding: 0px;
+
+
+    text-align: center;
+
+    /* background-color: rgb(60, 70, 69); */
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 170%;
+    font-weight: bolder;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+td.parede{
+    color: rgb(139, 139, 139);
+    width: 10px;
+    height: 1x;
+}
+
+p{
+    position: relative;
+    top: 10%;
+    margin: 0;
+}
+
+td.exibindo{
+    background-color: rgb(189, 189, 189);
+    border: 3px solid rgb(189, 189, 189);
+    margin: 3px;
+}
+
+td.campo-0{
+    color: rgb(189, 189, 189);
+}
+
+td.campo-1{
+    color: #0100fe;
+}
+
+td.campo-2{
+    color: #027e04;
+}
+
+td.campo-3{
+    color: #ff0300;
+}
+
+td.campo-4{
+    color: #7a057a;
+}
+
+td.campo-5{
+    color: #7c0200;
+}
+
+td.campo-6{
+    color: #027f81;
+}
+
+td.campo-7{
+    color: #810381;
+}
+
+td.campo-8{
+    color: #060606;
+}
+
+td.bomba{
+    color: rgba(189, 189, 189, 0);
+    background-image: url("image/icons8_naval_mine_32px_1.png");
+    background-position: center;
+    background-size: 100%;
+    /* background: no-repeat; */
+}
+
+td.oculto{
+    background-color: rgb(189, 189, 189);
+    border: 5px;
+    border-style: inset;
+    border-spacing: 0px;
+    color: rgb(189, 189, 189);
+}
+
