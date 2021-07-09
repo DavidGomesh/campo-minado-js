@@ -134,12 +134,19 @@ function fazerJogada(lin, col){
     exibirCampo(campoMinado);
 }
 
+function sleep(miliseconds) {
+    var currentTime = new Date().getTime();
+ 
+    while (currentTime + miliseconds >= new Date().getTime()) {
+    }
+ }
 function analisarCampo(lin, col){
     for(let i=lin-1; i<=lin+1; i++){
         for(let j=col-1; j<=col+1; j++){
             if(campoMinado.bombas[i][j]==0){
                 if(campoMinado.tabuleiro[i][j] == false){
                     campoMinado.tabuleiro[i][j] = true;
+                    exibirCampo(campoMinado);
                     analisarCampo(i, j);
                 }
             }
